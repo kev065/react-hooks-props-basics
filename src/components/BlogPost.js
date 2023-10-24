@@ -13,4 +13,8 @@ function BlogPost() {
   );
 }
 
+function BlogContent(props) {
+  return <div>{props.articleText}</div>;
+}
+
 export default BlogPost;
